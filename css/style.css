@@ -1,0 +1,108 @@
+/* common */
+.wrapper {
+  padding: 0 100px 70px 100px;
+  width: 1000px;
+}
+
+.section-title {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+p {
+  line-height: 28px;
+}
+
+/* header */
+header {
+  background-image: url(../img/firstview.jpg);
+  height: 400px;
+  width: 1000px;
+  padding: 0 100px;
+  margin-bottom: 70px;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+}
+
+.catchcopy {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.about {
+  text-align: center;
+}
+
+/* blog */
+.blog-contents {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-contents-item {
+  width: 29%;
+}
+
+.blog-contents-item img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* contact */
+.contact-table {
+  width: 780px;
+  margin: auto;
+}
+
+.contact-label, .contact-form {
+  padding: 10px;
+}
+
+.contact-label {
+  text-align: left;
+  width: 30%;
+}
+
+.contact-form {
+  width: 70%;
+}
+
+.form-text {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #000;
+}
+
+.contact-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  width: 200px;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+.btn-clear,
+a.btn-clear {
+  color: #000;
+  background-color: lightgray;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.btn-submit,
+a.btn-submit {
+  color: #fff;
+  background-color: #55bbbb;
+  text-decoration: none;
+  margin-left: 5px;
+}
